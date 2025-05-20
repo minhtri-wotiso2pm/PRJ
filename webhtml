@@ -1,19 +1,4 @@
-<!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
--->
-<html>
-
-    <head>
-        <meta charset="UTF-8">
-        <title>TravelFake</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="assets/css/style.css"> 
-    </head>
-    <body>
-        <div class="image-container">
+<div class="image-container">
             <img src="assets/images/picnen2.png" alt="Flowers in Chania">
             <img src="assets/images/picnen2.png" alt="Flowers in Chania">
         </div>
@@ -25,7 +10,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
 
         <div class="content-sale-choice"> 
             <ul class="nav navbar-nav">
-                <li class="active"> <a href="index.html">Khách Sạn</a> </li>
+                <li class="active"> <a key="khachsan" href="index.html">Khách Sạn</a> </li>
                 <li ><a href="#">Vé máy bay</a></li>
                 <li><a href="#">Vé vui chơi</a></li>
                 <li ><a href="#">Ngân hàng</a></li>
@@ -33,5 +18,3 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
                 <li ><a href="#">Zalo Pay</a></li>
             </ul>
         </div>
-    </body>
-</html>
