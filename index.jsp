@@ -34,8 +34,8 @@
                             <div class="button">
                                 <% if (user != null) { %>
                                     <a class="login-wel" href="profile.jsp">
-                                        <img id="user-logo-wel" src="assets/images/img-login (1).png" alt="user icon">
-                                        <span><%= user.getFullName() %></span>
+                                        <img id="user-logo-wel" src="assets/images/img-login (1).png">
+                                        <%= user.getFullName() %>
                                     </a>
                                 <% } else { %>
                                     <a class="login" href="login.jsp">
@@ -54,17 +54,64 @@
                     </div>
                 </div>
 
-                <div class="booking">
-                    <a>
-                        <img src="assets/images/logo-hotel.png" alt="hotel"> Khách sạn
+                <div class="booking-menu">
+                    <a class="booking-item">
+                        <img src="assets/images/logo-hotel.png" id="hotel" alt="Khách sạn">
+                      Khách sạn
                     </a>
-                    <a>
-                        <img src="assets/images/maybay.png" alt="plane"> Vé máy bay
+                    <a class="booking-item active">
+                        <img src="assets/images/maybayclick.png" id="maybay" alt="Vé máy bay">
+                      Vé máy bay
                     </a>
-                    <a>
-                        <img src="assets/images/bus-removebg-preview.png" alt="bus"> Vé xe khách
+                    <a class="booking-item">
+                      <img src="assets/images/bus-removebg-preview.png" id="bus" alt="Vé xe khách">
+                      Vé xe khách
                     </a>
                 </div>
+                            
+               <div class="booking-hotel">
+                    <a class="hotelcs active-hotel">
+                        <img src="assets/images/lgoo-hotelclick (1).png" alt="Khách sạn">
+                      Khách sạn
+                    </a>
+                    <a class="hotelcs">
+                        <img src="assets/images/lgoo-hotelclick (1).png" alt="Biệt thự">
+                      Biệt thự
+                    </a>
+                  </div>
+
+                            
+                <div class="search-bar">
+                    <form action="#" method="get">
+                      <label>
+                        Thành phố, địa điểm hoặc tên khách sạn:
+                        <img src="assets/images/location-removebg-preview.png" alt="Location icon" />
+                        <input type="text" placeholder="Thành phố, khách sạn, điểm đến" />
+                      </label>
+
+                      <label>
+                        Ngày nhận phòng:
+                        <img src="assets/images/lịch-removebg-preview.png" alt="Calendar icon" />
+                        <input type="date" id="datecs" />
+                      </label>
+
+                      <label>
+                        Ngày trả phòng:
+                        <input type="date" id="datecsOut" />
+                      </label>
+
+                      <div class="search-section">
+                        <i class="icon-people"></i>
+                        <span>2 người lớn, 0 Trẻ em, 1 phòng</span>
+                      </div>
+
+                      <button class="search-button" type="submit">
+                        <i class="icon-search"></i>
+                        Tìm kiếm
+                      </button>
+                    </form>
+                  </div>
+
             </div>
 
             <div class="image-container">
