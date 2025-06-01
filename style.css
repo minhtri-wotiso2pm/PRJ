@@ -323,6 +323,94 @@ body{
     color: #007BFF;
 }
 
+
+/*  */
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f9fc;
+  margin: 0;
+}
+
+.container {
+  max-width: 82%;
+  margin: auto;
+}
+
+h2 {
+  color: #1e88e5;
+}
+
+.tabs {
+  margin: 20px 0;
+}
+
+.tab {
+  padding: 8px 16px;
+  background: #e0e0e0;
+  border: none;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.tab.active {
+  background: #1e88e5;
+  color: white;
+}
+
+.voucher-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+
+.voucher {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  flex: 1 1 250px;
+  position: relative;
+}
+
+.voucher .tag {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  background: orange;
+  color: white;
+  padding: 2px 6px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.code {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.code button {
+  padding: 4px 10px;
+  border: none;
+  background: #90caf9;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-more {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #1e88e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/*  */
 .footer {
     background-color: #1c2930;
     color: #ffffff;
