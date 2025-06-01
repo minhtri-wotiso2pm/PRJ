@@ -119,22 +119,72 @@
                 <img src="assets/images/picnen2.png" alt="Background">
             </div>
 
-            <div class="content-sale">
-                <h1>Mã giảm đến 50% khi đặt sớm</h1><br>
-                <p>Chỉ áp dụng trên App!</p>
+    <div class="container">
+        <h2>Mã giảm 6.6 cộng dồn đến 6 triệu</h2>
+        <p>Chỉ áp dụng trên App!</p>
+
+        <div class="tabs">
+            <button class="tab active">Khách sạn</button>
+            <button class="tab">Vé máy bay</button>
+            <button class="tab">Vé vui chơi</button>
+            <button class="tab">Ngân hàng</button>
+            <button class="tab">Điểm đến hot</button>
+            <button class="tab">Zalo Pay</button>
+        </div>
+
+        <div class="voucher-list">
+            <div class="voucher">
+                <div class="tag">Sắp hết mã</div>
+                <h4>[FlashSale] Giảm 50% cho các nước quốc tế khác</h4>
+                <p>🔥Đặt từ 2 đêm hoặc 2 phòng</p>
+                <div class="code">
+                    <span>KSMEGAFS66QT</span>
+                    <button onclick="copyCode(this)">Copy</button>
+                </div>
             </div>
 
-            <div class="content-sale-choice">
-                <ul class="nav navbar-nav">
-                    <li class="active"> <a href="index.html">Khách Sạn</a> </li>
-                    <li><a href="#">Vé máy bay</a></li>
-                    <li><a href="#">Vé vui chơi</a></li>
-                    <li><a href="#">Ngân hàng</a></li>
-                    <li><a href="#">Điểm đến hot</a></li>
-                    <li><a href="#">Zalo Pay</a></li>
-                </ul>
+            <div class="voucher">
+                <h4>Giảm đến 600k cho nội địa</h4>
+                <p>Giảm đến 600k, đặt từ 3 triệu</p>
+                <div class="code">
+                    <span>KSMEGA66VN</span>
+                    <button onclick="copyCode(this)">Copy</button>
+                </div>
             </div>
 
+            <div class="voucher">
+                <h4>Giảm đến 600k cho Đông Nam Á</h4>
+                <p>Giảm đến 600k, đặt từ 3.5 triệu</p>
+                <div class="code">
+                    <span>KSMEGA66DNA</span>
+                    <button onclick="copyCode(this)">Copy</button>
+                </div>
+            </div>
+        </div>
+
+        <button class="btn-more">Săn thêm mã cộng dồn</button>
+
+        <h3>Mã Ưu Đãi Tặng Bạn Mới</h3>
+        <div class="voucher-list">
+            <div class="voucher">
+                <h4>Giảm ngay 50K</h4>
+                <p>Áp dụng cho lần đặt đầu tiên trên ứng dụng Traveloka.</p>
+                <div class="code">
+                    <span>TVLKBANMOI</span>
+                    <button onclick="copyCode(this)">Copy</button>
+                </div>
+            </div>
+
+            <div class="voucher">
+                <h4>8% giảm giá Khách sạn</h4>
+                <p>Áp dụng cho lần đặt đầu tiên trên ứng dụng Traveloka.</p>
+                <div class="code">
+                    <span>TVLKBANMOI</span>
+                    <button onclick="copyCode(this)">Copy</button>
+                </div>
+            </div>
+        </div>
+    </div>
             <footer class="footer">
                 <div class="footer-container">
                     <div class="footer-col-1">
