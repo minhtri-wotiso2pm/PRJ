@@ -185,6 +185,116 @@
             </div>
         </div>
     </div>
+
+<!--  -->
+    <div class="hotel">
+        <div class="section">
+            <div class="section-title">✨ Ưu đãi 6.6 nội địa</div>
+            <div class="tabs">
+                <div class="tab active">Đà Nẵng</div>
+                <div class="tab">Hà Nội</div>
+                <div class="tab">Tp. Hồ Chí Minh</div>
+                <div class="tab">Nha Trang</div>
+                <div class="tab">Đà Lạt</div>
+            </div>
+            <div class="card-grid">
+                <div class="card">
+                    <img src="assets/images/hoteldanang.jpg" alt="Hotel">
+                    <div class="card-content">
+                        <div class="tag">Vị trí tốt</div>
+                        <h4>Leaf Beachfront Hotel Đà Nẵng</h4>
+                        <div class="rating">9.9/10 (45)</div>
+                        <div class="price">7.894.481 VND</div>
+                        <div class="old-price">9.625.844 VND</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/images/hoteldanang2.jpg" alt="Hotel">
+                    <div class="card-content">
+                        <div class="tag">Giá tốt nhất</div>
+                        <h4>Maois Hotel Đà Nẵng</h4>
+                        <div class="rating">8.55/10 (45)</div>
+                        <div class="price">1.123.481 VND</div>
+                        <div class="old-price">1.155.814 VND</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/images/hoteldanang3.jpg" alt="Hotel">
+                    <div class="card-content">
+                        <div class="tag">Vị trí tốt</div>
+                        <h4>HighLand Hotel Đà Nẵng</h4>
+                        <div class="rating">9.33/10 (45)</div>
+                        <div class="price">6.323.611 VND</div>
+                        <div class="old-price">7.115.344 VND</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/images/hoteldanang4.jpg" alt="Hotel">
+                    <div class="card-content">
+                        <div class="tag">Vị trí tốt</div>
+                        <h4>Tower Hotel Đà Nẵng</h4>
+                        <div class="rating">9.1/10 (45)</div>
+                        <div class="price">3.234.412 VND</div>
+                        <div class="old-price">4.155.822 VND</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">🌍 Ưu đãi 6.6 quốc tế</div>
+            <div class="tabs">
+                <div class="tab active">Bangkok</div>
+                <div class="tab">Phuket</div>
+                <div class="tab">Pattaya</div>
+                <div class="tab">Singapore</div>
+                <div class="tab">Kuala Lumpur</div>
+            </div>
+            <div class="card-grid">
+                <div class="card">
+                    <img src="assets/images/hotelbangkok.jpg" alt="Hotel">
+                    <div class="card-content">
+                        <div class="tag">Mega Deal</div>
+                        <h4>Livotel Hotel Bangkok</h4>
+                        <div class="rating">9.8/10 (4287)</div>
+                        <div class="price">17.890.000 VND</div>
+                        <div class="old-price">20.990.000 VND</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/images/hotelbangkok2.jpg" alt="Hotel">
+                    <div class="card-content">
+                        <div class="tag">Mega Deal</div>
+                        <h4>Kaset Nawamin Hotel Bangkok</h4>
+                        <div class="rating">9.2/10 (4287)</div>
+                        <div class="price">14.690.000 VND</div>
+                        <div class="old-price">15.780.000 VND</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/images/hotelbangkok3.jpg" alt="Hotel">
+                    <div class="card-content">
+                        <div class="tag">Mega Price</div>
+                        <h4>Kaowila Hotel Bangkok</h4>
+                        <div class="rating">8.5/10 (4287)</div>
+                        <div class="price">10.320.000 VND</div>
+                        <div class="old-price">15.890.000 VND</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/images/hotelbangkok4.jpg" alt="Hotel">
+                    <div class="card-content">
+                        <div class="tag">Mega Deal</div>
+                        <h4>Miniha Hotel Bangkok</h4>
+                        <div class="rating">9.9/10 (4287)</div>
+                        <div class="price">22.990.000 VND</div>
+                        <div class="old-price">25.980.000 VND</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
             <footer class="footer">
                 <div class="footer-container">
                     <div class="footer-col-1">
