@@ -593,3 +593,118 @@ h2 {
     margin-right: 10px;
     margin-top: 10px;
 }  
+
+
+/* PLANE */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5faff;
+}
+
+.hero {
+  /* position: relative; */
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  border-radius: 24px;
+  margin: 20px;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-bottom: 280px;
+}
+
+.image-plane-container{
+  display: flex;
+  justify-content: center;
+
+}
+
+.image-plane-container img{
+width: 100%;
+border-radius: 20px;
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: 140px;
+  left: 40px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.search-box {
+  position: absolute;
+  bottom: -160px;
+  left: 100px;
+  right: 100px;
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.trip-types {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.trip {
+  padding: 8px 16px;
+  background: #e6f3ff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.trip.selected {
+  background: #008cff;
+  color: white;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.input-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.switch-icon {
+  align-self: center;
+  font-size: 18px;
+}
+
+.options-row {
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.search-btn {
+  width: 100%;
+  background: #008cff;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+/*  */
