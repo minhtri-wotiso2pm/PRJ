@@ -694,6 +694,317 @@ border-radius: 20px;
   font-size: 14px;
 }
 
+.hotelcs,.flightcs {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    border-radius: 30px;
+    background-color: #03121a4d;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hotelcs{
+    padding: 3px 7px;
+}
+
+.flightcs{
+    padding: 8.5px 10px;
+}
+
+.active-content {
+    background-color: #007bff;
+    color: white;
+}
+
+.hotelcs img {
+    width: 25px;
+}
+
+.tab-content {
+    display: none;
+    margin: 10px 0px 0px 35px;
+}
+
+.tab-content.active {
+    display: flex;
+}
+
+/* Căn các nhãn nằm ngang */
+.form-bar {
+    display: flex;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.form-bar p{
+    margin-right: 104px;
+}
+
+#hn{
+    margin-right: 175px;
+}
+
+/* Căn các input thẳng hàng dưới form-bar */
+.search-bar {
+    width: 94.7%;
+    margin-left: 40px;
+}
+
+.search-bar form {
+    display: flex;
+    align-items: center;
+    background-color: #007bff;
+    height: 58px;
+    border-radius: 20px;
+}
+
+/* Các khối input */
+.search-group-1,.search-group-2,.search-group-3,.search-group-4 {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #eee;
+    background-color: #fff;
+}
+
+.search-group-1{
+    margin-left: 5px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 7.5px 64px;
+}
+
+.search-group-2{
+    padding: 10px 31px;
+}
+
+.search-group-3{
+    padding: 10px 23px;
+}
+
+.search-group-4{
+    padding: 10px 40px;
+}
+
+.search-group-1:last-child,.search-group-2:last-child,.search-group-3:last-child,.search-group-4:last-child {
+    border-right: none;
+}
+
+/* Icon */
+.search-group-1 img,.search-group-2 img,.search-group-3 img,.search-group-4 img {
+    width: 28px;
+    height: auto;
+}
+
+/* Input: chữ căn trái, không viền */
+.search-group-1 input,.search-group-2 input,.search-group-3 input,.search-group-4 input {
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    background: transparent;
+    width: 200px;
+    color: #333;
+    margin: 0;
+}
+
+.search-group-2 input,.search-group-3 input,.search-group-4 input {
+    width: 150px;
+}
+
+.search-group-1 input{
+    width: 250px;
+}
+
+/* Nút tìm kiếm */
+.search-button {
+    background: transparent;
+    border: none;
+    padding: 12.7px;
+    border-top-right-radius: 19px;
+    border-bottom-right-radius: 19px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-button:hover {
+    background-color: #e94e00;
+}
+
+.search-button img {
+    width: 22px;
+    height: 22px;
+}
+
+.form-plane {
+    display: flex;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.form-place,.form-date{
+    display: flex;
+}
+
+.form-place p{
+    margin-right: 220px;
+    color: white;
+}
+
+#kh{
+    margin-left: 90px;
+}
+
+.form-date p{
+    margin-right: 110px;
+    color: white;
+}
+
+/* Căn các input thẳng hàng dưới form-bar */
+.input-plane{
+    width: 94.3%;
+    margin-left: 40px;
+}
+
+.booking-menu {
+    display: flex;
+    gap: 20px;
+    padding-top: 115px;
+    padding-bottom: 10px;
+    background: transparent;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    margin: 0px 38px;
+}
+
+.booking-item {
+    background: none;
+    border: none;
+    border: 1px solid transparent;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #E1E3E6;
+    padding: 8px 15px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.booking-item img {
+    width: 30px;
+    margin-right: 8px;
+}
+
+.booking-item.active {
+    background-color: white;
+    color: #03121a;
+    border-color: #fff;
+}
+
+.booking-item:not(.active):hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+.input-plane form {
+    display: flex;
+    align-items: center;
+    height: 58px;
+    border-radius: 20px;
+}
+
+.search-place,.book-plane{
+    background-color: #007bff;
+    border-radius: 20px;
+    display: flex;
+    border: 1px solid;
+    padding: 4px;
+}
+
+.search-place{
+    margin-right: 100px;
+}
+/* Các khối input */
+.search-plane-1,.search-plane-2,.search-plane-3,.search-plane-4 {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #eee;
+    background-color: #fff;
+}
+
+.search-plane-1,.search-plane-3{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 7px 30px;
+}
+
+.search-plane-2,.search-plane-4{
+    padding: 7px 30px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* Icon */
+.search-plane-3 img,.search-plane-4 img {
+    width: 28px;
+    height: auto;
+}
+
+.search-plane-1 img,.search-plane-2 img{
+    width: 24px;
+    height: auto;
+}
+
+/* Input: chữ căn trái, không viền */
+.search-plane-1 input,.search-plane-2 input,.search-plane-3 input,.search-plane-4 input {
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    background: transparent;
+    width: 150px;
+    color: #333;
+    margin: 0;
+}
+
+/* Nút tìm kiếm */
+
+.search-img {
+    background: transparent;
+    border: none;
+    padding: 12.7px;
+    border: 1px solid #e94e00;
+    ;
+    background-color: #e94e00;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-search{
+    border-radius: 25px;
+    margin-left: 60px;
+    background-color: #007bff;
+    border: 1px solid;
+    padding: 3px;
+}
+
+.search-img:hover {
+    background-color: #e94e00;
+}
+
+.search-img img {
+    width: 22px;
+    height: 22px;
+}
+
 .search-btn {
   width: 100%;
   background: #008cff;
@@ -705,6 +1016,3 @@ border-radius: 20px;
   cursor: pointer;
   margin-top: 10px;
 }
-
-
-/*  */
